@@ -1,6 +1,6 @@
 # Maintainer: drakkan <nicola.murino at gmail dot com>
 pkgname=mingw-w64-gst-plugins-ugly
-pkgver=1.24.1
+pkgver=1.24.2
 pkgrel=1
 pkgdesc="GStreamer Multimedia Framework Ugly Plugins (mingw-w64)"
 arch=(any)
@@ -16,7 +16,7 @@ optdepends=(
 options=('!strip' '!buildflags' 'staticlibs')
 
 source=(${url}src/gst-plugins-ugly/gst-plugins-ugly-${pkgver}.tar.xz)
-sha256sums=('6462d36ce64b74203a8b302c109e762b1dd404a6235dfec3c4255106b7b86976')
+sha256sums=('45da98bf1040c9472fd59f6271282de25a3721ab85b78aaaf8104949550fbef5')
 
 _architectures="i686-w64-mingw32 x86_64-w64-mingw32"
 
